@@ -1,0 +1,16 @@
+artifact_uri: file:///c:/Users/torjm/OneDrive/Bureau/Master%20Degree/first%20year/ML/project1/Project%201/cybersecurity-dashboard/Machine_Learning/mlruns/294219679911674442/d9c3f8924a734facb6189090e9b5a46e/artifacts
+deleted_time: 1742944377779
+end_time: 1742942483632
+entry_point_name: ''
+experiment_id: '294219679911674442'
+lifecycle_stage: deleted
+run_id: d9c3f8924a734facb6189090e9b5a46e
+run_name: MLPClassifier
+run_uuid: d9c3f8924a734facb6189090e9b5a46e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742942169902
+status: 3
+tags: []
+user_id: Yassine Fendi

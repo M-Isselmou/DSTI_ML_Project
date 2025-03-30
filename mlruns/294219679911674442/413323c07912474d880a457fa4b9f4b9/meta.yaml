@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/torjm/OneDrive/Bureau/Master%20Degree/first%20year/ML/project1/Project%201/cybersecurity-dashboard/Machine_Learning/mlruns/294219679911674442/413323c07912474d880a457fa4b9f4b9/artifacts
+end_time: 1742942028071
+entry_point_name: ''
+experiment_id: '294219679911674442'
+lifecycle_stage: active
+run_id: 413323c07912474d880a457fa4b9f4b9
+run_name: RandomForest_RFECV
+run_uuid: 413323c07912474d880a457fa4b9f4b9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742941854329
+status: 3
+tags: []
+user_id: Yassine Fendi

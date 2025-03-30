@@ -1,0 +1,8 @@
+Severity Level
+Source IP FirstOctet
+Destination IP FirstOctet
+City
+Region
+Operating System
+Anomaly Score Category
+Packet Length Category

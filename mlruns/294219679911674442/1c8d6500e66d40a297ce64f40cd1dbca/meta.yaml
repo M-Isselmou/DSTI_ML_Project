@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/torjm/OneDrive/Bureau/Master%20Degree/first%20year/ML/project1/Project%201/cybersecurity-dashboard/Machine_Learning/mlruns/294219679911674442/1c8d6500e66d40a297ce64f40cd1dbca/artifacts
+end_time: 1742941534429
+entry_point_name: ''
+experiment_id: '294219679911674442'
+lifecycle_stage: active
+run_id: 1c8d6500e66d40a297ce64f40cd1dbca
+run_name: LogisticRegression
+run_uuid: 1c8d6500e66d40a297ce64f40cd1dbca
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742941527215
+status: 3
+tags: []
+user_id: Yassine Fendi
