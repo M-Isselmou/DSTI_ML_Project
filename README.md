@@ -80,13 +80,9 @@ docker compose -f compose.yml up
 
 5.	For model analysis and the machines learing NotesBooks:
  
-6. Create virtual envirements:
+6. Create virtual envirements: python -m venv .venv
 
- python -m venv .venv
-
-7. Install requiremnts:
- 
- pip install -r requirements.txt
+7. Install requiremnts: pip install -r requirements.txt
  
 Contact
 For questions or collaboration opportunities:
