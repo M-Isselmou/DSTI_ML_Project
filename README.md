@@ -1,7 +1,8 @@
 Cybersecurity Attack Type Detection
 Project Overview:
 
-This project aims to chalenge the cybersecurity attacks dataset by classify attacks into three categories: Malware, DDoS, and Intrusion. Using a dataset containing 40,000 records of network traffic, we developed and evaluated machine learning models to predict attack types based on features such as IP addresses, ports, protocols, packet details, and severity levels
+This project aims to chalenge the cybersecurity attacks dataset by classifying attacks into three categories: Malware, DDoS, and Intrusion. 
+Using a dataset containing 40,000 records of network traffic, we developed and evaluated machine learning models to predict attack types based on features such as IP addresses, ports, protocols, packet details, and severity levels.
 The project includes exploratory data analysis (EDA), feature engineering, model training, evaluation, and deployment of a web application for real-time predictions.
  
 Dataset
@@ -57,8 +58,13 @@ The project includes a web application built using Flask:
  
 Conclusion
 Both models achieved similar accuracy on test (~33% even the train values can be high is some cases (overfitting) ), highlighting the complexity of the problem due to the synthetic dataset where generated network traffic data can exhibit overlapping or very similar feature distributions across different attack types and it confirms the static analysis during data exploring.
-After thorough investigation, best practices for future improvements include reducing noise by removing or abstracting high-cardinality features, performing targeted feature selection, and conducting extensive hyperparameter tuning.
-Future improvements include adding new datasets, potentially real-world network data, to enhance model training and predictive capabilities.
+
+Future Improvements:
+- Reduce noise by removing or abstracting high-cardinality features.
+- Perform targeted feature selection.
+- Conduct extensive hyperparameter tuning.
+- Integrate real-world network data to improve generalization.
+- Explore deep learning architectures such as CNNs and LSTMs.
  
 Installation
 1.	Clone the repository:
