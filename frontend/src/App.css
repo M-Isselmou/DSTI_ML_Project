@@ -1,0 +1,120 @@
+/* Custom CSS Variables */
+:root {
+  --primary-bg: linear-gradient(135deg, #eee0d3 0%, #16213e 100%);
+  --glass-bg: rgba(143, 14, 14, 0.05);
+  --text-primary: #e6e6e6;
+  --accent-cyan: #00fff5;
+  --accent-pink: #ff2d55;
+  --shadow: 0 8px 32px 0 rgba(174, 75, 0, 0.37);
+}
+
+/* Global Styles */
+body {
+  background: var(--primary-bg);
+  color: var(--text-primary);
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Glassmorphism Effect */
+.glass-card {
+  background: var(--glass-bg);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 15px;
+  box-shadow: var(--shadow);
+}
+
+/* Page Title */
+.page-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  background: linear-gradient(45deg, var(--accent-cyan), var(--accent-pink));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 2px 8px rgba(0, 255, 245, 0.2);
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: rgba(230, 230, 230, 0.8);
+  font-weight: 300;
+}
+
+/* Stats Grid */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1.5rem;
+}
+
+.stat-item {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.stat-item:hover {
+  transform: translateY(-5px);
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.stat-item h3 {
+  color: var(--accent-cyan);
+  margin: 0;
+  font-weight: 600;
+}
+
+/* Form Elements */
+.form-control, .form-select {
+  background: rgba(255, 255, 255, 0.05) !important;
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
+  color: var(--text-primary) !important;
+  transition: all 0.3s ease;
+}
+
+.form-control:focus, .form-select:focus {
+  background: rgba(255, 255, 255, 0.1) !important;
+  border-color: var(--accent-cyan) !important;
+  box-shadow: 0 0 0 0.25rem rgba(0, 255, 245, 0.25);
+}
+
+.form-label {
+  color: rgba(230, 230, 230, 0.8) !important;
+  font-weight: 300;
+}
+
+/* Custom Button */
+.btn-custom {
+  background: linear-gradient(45deg, var(--accent-cyan), var(--accent-pink));
+  border: none;
+  padding: 12px 30px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+}
+
+.btn-custom:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 255, 245, 0.3);
+}
+
+/* Section Headers */
+.section-header {
+  color: var(--accent-cyan);
+  font-weight: 500;
+  border-left: 4px solid var(--accent-pink);
+  padding-left: 1rem;
+  margin: 2rem 0 1.5rem;
+}
+
+/* Textarea Styling */
+textarea {
+  background: rgba(255, 255, 255, 0.05) !important;
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
+  color: var(--text-primary) !important;
+  resize: vertical;
+  min-height: 100px;
+}
