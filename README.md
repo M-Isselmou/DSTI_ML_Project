@@ -61,7 +61,7 @@ Future improvements include adding new datasets, potentially real-world network 
  
 Installation
 1.	Clone the repository:
-git clone https://github.com/Khettar-Othmane/DSTI_ML.git
+git clone https:https://github.com/M-Isselmou/DSTI_ML_Project
 
 2.	Install docker (to run the application)
 
