@@ -1,6 +1,7 @@
 Cybersecurity Attack Type Detection
-Project Overview
-This project aims to chanlenge the cybersecurity attacks dataset by classify attacks into three categories: Malware, DDoS, and Intrusion. Using a dataset containing 40,000 records of network traffic, we developed and evaluated machine learning models to predict attack types based on features such as IP addresses, ports, protocols, packet details, and severity levels
+Project Overview:
+
+This project aims to chalenge the cybersecurity attacks dataset by classify attacks into three categories: Malware, DDoS, and Intrusion. Using a dataset containing 40,000 records of network traffic, we developed and evaluated machine learning models to predict attack types based on features such as IP addresses, ports, protocols, packet details, and severity levels
 The project includes exploratory data analysis (EDA), feature engineering, model training, evaluation, and deployment of a web application for real-time predictions.
  
 Dataset
